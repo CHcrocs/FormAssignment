@@ -1,0 +1,151 @@
+@font-face {
+    font-family: norse-font;
+    src: url(Assets/Norse-Bold.otf);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background-color: rgb(250, 248, 242);
+}
+
+.image_place{
+    display: flex;
+    justify-content: center;
+}
+
+.image_holder {
+    width: 40vw;
+    margin-bottom: -4px;
+
+}
+
+.image_florest {
+    width: 40svw;
+    height: 100svh;
+}
+
+.odin_holder {
+    background-color: rgba(0, 0, 0, 0.507);
+    position: fixed;
+    margin-top: 200px;
+    width: 40%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odin_holder > p {
+    color: white;
+    font-family: norse-font, sans-serif;
+    font-size: 7em;
+}
+
+.image_odin {
+    width: 15%;
+    height: 100%;
+}
+
+.content_place {
+    width: 40svw;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content_text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21.5px;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.form_body {
+    background-color: white;
+    box-shadow: 1px 5px 7px rgba(0, 0, 0, 0.219);
+    width: 60svw;
+    height: 30svh;
+    margin-top: 50px;
+}
+
+.form_body > p {
+    padding: 10px;
+    padding-left: 30px;
+
+}
+
+.inputs_conteiner{
+    border: none;
+    padding: 15px;
+    gap: 25px 50px;
+    width: 45svw;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+
+}
+
+.inputs_conteiner > div{
+    flex: 1 1 100px;
+
+}
+
+.inputs_conteiner label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.664);
+    display: block;
+}
+
+.inputs_conteiner input{
+    width: 300px;
+    height:25px;
+    border-radius: 3px;
+}
+
+
+.inputs_conteiner input:focus{
+    border-color: rgba(57, 57, 243, 0.445);
+    box-shadow: 1px 1px 5px black;
+}
+
+.inputs_conteiner input:invalid{
+    border-color: rgba(247, 38, 38, 0.514);
+}
+
+.submit_form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: #596D48;
+    color: white;
+    padding: 15px 50px 15px 50px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.submit_form:hover{
+    background-color: #6e8657;
+}
+
+.link_text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-left: 30px;
+    font-weight: light;
+}
+
+.link_text > a{
+    text-decoration: none;
+    color: #596D48;
+}
+
+.link_text > a:hover{
+    text-decoration: underline;
+    color: #596D48;
+}
