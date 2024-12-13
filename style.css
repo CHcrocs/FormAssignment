@@ -109,9 +109,12 @@ body {
     border-radius: 3px;
 }
 
+.inputs_conteiner input:valid{
+    border-color: #E5E7EB;
+}
 
 .inputs_conteiner input:focus{
-    border-color: rgba(57, 57, 243, 0.445);
+    border-color: rgba(57, 57, 243, 0.534);
     box-shadow: 1px 1px 5px black;
 }
 
